@@ -1,10 +1,11 @@
 #defines vars
 
+main = 1
 name = ""
 age = 0
-pass = []
+pass_ = []
 users = []
-
+pass_inpt
 
 #intro
 print("welcome to password manager")
@@ -17,4 +18,11 @@ def menu(name, age):
         print("goodbye")
         exit()
     else:
-        print("")
+        print("you are elegible")
+
+#main
+while main == 1 or 2:
+    main = input("1, 2, 3?")
+    if main == 1:
+        pass_inpt = input("pass?")
+        append.pass_(pass_inpt)
